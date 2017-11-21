@@ -1,0 +1,146 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Braintree/Card (4.7.5):
+    - Braintree/Core
+  - Braintree/Core (4.7.5)
+  - Braintree/UnionPay (4.7.5):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.1.0):
+    - BraintreeDropIn/DropIn (= 5.1.0)
+  - BraintreeDropIn/DropIn (5.1.0):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.1.0)
+  - FBSDKCoreKit (4.20.2):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.20.2):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.20.2):
+    - FBSDKCoreKit
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - React (0.40.0):
+    - React/Core (= 0.40.0)
+  - react-native-fbsdk (0.5.0):
+    - React
+    - react-native-fbsdk/Core (= 0.5.0)
+    - react-native-fbsdk/Login (= 0.5.0)
+    - react-native-fbsdk/Share (= 0.5.0)
+  - react-native-fbsdk/Core (0.5.0):
+    - FBSDKCoreKit
+    - React
+  - react-native-fbsdk/Login (0.5.0):
+    - FBSDKLoginKit
+    - React
+  - react-native-fbsdk/Share (0.5.0):
+    - FBSDKShareKit
+    - React
+  - react-native-geocoder (0.4.5):
+    - React
+  - react-native-image-picker (0.14.3):
+    - React
+  - react-native-maps (0.13.0):
+    - React
+  - React/Core (0.40.0):
+    - React/cxxreact
+    - React/yoga
+  - React/cxxreact (0.40.0):
+    - React/jschelpers
+  - React/jschelpers (0.40.0)
+  - React/RCTActionSheet (0.40.0):
+    - React/Core
+  - React/RCTAnimation (0.40.0):
+    - React/Core
+  - React/RCTGeolocation (0.40.0):
+    - React/Core
+  - React/RCTImage (0.40.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.40.0):
+    - React/Core
+  - React/RCTNetwork (0.40.0):
+    - React/Core
+  - React/RCTPushNotification (0.40.0):
+    - React/Core
+  - React/RCTSettings (0.40.0):
+    - React/Core
+  - React/RCTText (0.40.0):
+    - React/Core
+  - React/RCTVibration (0.40.0):
+    - React/Core
+  - React/RCTWebSocket (0.40.0):
+    - React/Core
+  - React/yoga (0.40.0)
+  - RNDeviceInfo (0.9.3):
+    - React
+  - RNVectorIcons (4.0.0):
+    - React
+
+DEPENDENCIES:
+  - BraintreeDropIn
+  - GoogleMaps
+  - react-native-fbsdk (from `../node_modules/react-native-fbsdk/ios/`)
+  - react-native-geocoder (from `../node_modules/react-native-geocoder`)
+  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons/`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  react-native-fbsdk:
+    :path: ../node_modules/react-native-fbsdk/ios/
+  react-native-geocoder:
+    :path: ../node_modules/react-native-geocoder
+  react-native-image-picker:
+    :path: ../node_modules/react-native-image-picker
+  react-native-maps:
+    :path: ../node_modules/react-native-maps
+  RNDeviceInfo:
+    :path: ../node_modules/react-native-device-info
+  RNVectorIcons:
+    :path: ../node_modules/react-native-vector-icons/
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Braintree: 07a215df0cb2d06997e39df564f9ae175908b0e9
+  BraintreeDropIn: ad8e18bd4f3a33105b7bcd418556988ef68272bc
+  FBSDKCoreKit: 82eac696eb6157da5f4266c3a241f00e9bd72471
+  FBSDKLoginKit: 2211bede07c83391349eacc1fd86cf6d9289ce38
+  FBSDKShareKit: ca9b22264ea49a896dafb2467c1a4f72aa41996f
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  React: 6dfb2f72edb1d74a800127ae157af038646673ce
+  react-native-fbsdk: b1dcaf67cb1358c893a1378b659623b96e05167a
+  react-native-geocoder: 2aa51c76ecb1392d04ac5d45e226f90f863614fd
+  react-native-image-picker: 3693786b3d5958c8f71deed66ec068b323565e0d
+  react-native-maps: ac1537737fc421d9164dc2cf371e051a76c63e5c
+  RNDeviceInfo: dc3cbee96cd2392cf03d6ff6191dc15f1606a166
+  RNVectorIcons: d7e2c5eef986d1f594dfd2947df6d6e8093ad1e0
+
+PODFILE CHECKSUM: 63756f8955488c480ee03b9fe27933cbcfb00d1b
+
+COCOAPODS: 1.1.1
